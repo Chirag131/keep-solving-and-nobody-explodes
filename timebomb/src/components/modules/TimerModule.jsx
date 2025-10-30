@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 export default function TimerModule() {
-  const [time, setTime] = useState(30); // 2:35
+  const [time, setTime] = useState(300); // 5:00
   const [exploded, setExploded] = useState(false);
   const controls = useAnimation();
   const explosionSoundRef = useRef(null);
